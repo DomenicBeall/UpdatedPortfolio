@@ -1,0 +1,28 @@
+/* Styling specific to index.html */
+
+/* Give the cover photo some padding to line it up with the text */
+.cover-photo {
+    padding: 20px;
+}
+
+/* Pad the description paragraphs and increase the text size */
+.desc-paragraph {
+    padding: 20px;
+    font-size: x-large;
+}
+
+/* Set the size and position of the cover photo if the screen width is above the small breakpoint */
+@media screen and (min-width: 768px) {
+    .cover-photo {
+        width: 25%;
+        float: left;
+    }
+}
+
+/* Set the size and position of the cover photo if the screen width is below the small breakpoint */
+@media screen and (max-width: 768px) { 
+    .cover-photo {
+        width: 100%;
+        float: initial;
+    }
+}

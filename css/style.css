@@ -1,0 +1,30 @@
+/* General styling that will be applied website wide */
+
+/* Set the background color of the site body*/
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+body {
+    background-color: gray;
+}
+
+/* Give the containers for the contents of each page a white background and a little bit of margin to seperate it from the header and footer */
+.content-container {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    box-shadow: 0 0 6pt 5pt rgb(78, 78, 78);
+    border-radius: 5pt;
+}
+
+/* Give the title of the page some padding so it aligns with the other content */
+.page-title {
+    padding: 20px;
+}
+
+/* Used to give certain components a shadow */
+.shadow {
+    box-shadow: 0 0 6pt 5pt rgb(78, 78, 78) !important;
+}

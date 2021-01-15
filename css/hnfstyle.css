@@ -1,0 +1,63 @@
+/* Set the color, padding and text size of the name header */
+.name-header {
+    background-color: #141414;
+
+    font-size: xx-large;
+    text-align: center;
+
+    padding: 6px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+/* Padding for objects on the navbar */
+.nav-link-padding {
+    padding: 10px;
+}
+
+/* Used to remove the default padding applied to navbars which was preventing the title div from filling the navbar vertically*/
+.rm-padding {
+    padding: 0;
+}
+
+/* Set the header and footer colors as well as the color for navigation links*/
+footer, .navbar, .nav-link {
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+/* This media query updates objects when the resolution is below the low breakpoint */
+@media screen and (max-width: 768px) {
+    /* Make the header take up the whole screen width */
+    .name-header {
+        width: 100%;
+    }
+
+    /* Set the margins of the navlinks to center them in the navbar */
+    .nav-link-marginauto-sm {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Set the title text of the article to center */
+    .title-sm-center {
+        text-align: center;
+    }
+}
+
+/* This media query updates objects when the resolution is above the low breakpoint */
+@media screen and (min-width: 768px) {
+    /* Offset the header from the side of the navbar by a small amount */
+    .name-header {
+        margin-left: 5%;
+    }
+
+    /* Sets the margins of the navlinks so they sit on the left of the navbar*/
+    .nav-link-marginauto-lg {
+        margin-left: auto;
+    }
+}
