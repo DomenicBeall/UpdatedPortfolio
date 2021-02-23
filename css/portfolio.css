@@ -36,6 +36,11 @@
     background-size: cover !important;
 }
 
+.project-card.bg5 {
+    background: url("../assets/Burger.jpg") center !important;
+    background-size: cover !important;
+}
+
 /* Set the size and relative position of the card label*/
 .card-label {
     width: 100%;
